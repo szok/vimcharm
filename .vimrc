@@ -39,6 +39,10 @@ set noswapfile
 let mapleader = ","
 set pastetoggle=<F4>
 
+" Easier moving between tabs.
+map <Leader>n <esc>:tabprevious<CR>
+map <Leader>m <esc>:tabnext<CR>
+
 
 " ============================================================================
 " Enable highlighting of trailing spaces.

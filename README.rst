@@ -13,6 +13,8 @@ Features
 Keymap
 ======
 - <F4> -- Toggle paste mode.
+- ,n -- Previous tab.
+- ,m -- Next tab.
 
 Plugins
 =======
