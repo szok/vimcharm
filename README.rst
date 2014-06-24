@@ -13,6 +13,8 @@ Features
 
 Keymap
 ======
+- <F2> -- Quick write session.
+- <F3> -- Quick load session.
 - <F4> -- Toggle paste mode.
 - ,n -- Previous tab.
 - ,m -- Next tab.
