@@ -10,6 +10,10 @@ Features
 - right margin line
 - `wombat256mod <http://www.vim.org/scripts/script.php?script_id=2465>`_ colorscheme
 
+Keymap
+======
+- <F4> -- Toggle paste mode.
+
 Plugins
 =======
 - `pathogen.vim <https://github.com/tpope/vim-pathogen>`_
