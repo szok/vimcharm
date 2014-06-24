@@ -15,12 +15,20 @@ set number
 
 
 " ============================================================================
-" Searching
+" Enable highlight, incremental and smart case searching.
 " ============================================================================
 set hlsearch
 set incsearch
 set ignorecase
 set smartcase
+
+
+" ============================================================================
+" Disable backup and swap files.
+" ============================================================================
+set nobackup
+set nowritebackup
+set noswapfile
 
 
 " ============================================================================
@@ -52,7 +60,7 @@ autocmd ColorScheme * highlight ColorColumn ctermbg=235
 
 
 " ============================================================================
-" Color scheme
+" Color scheme.
 " ============================================================================
 set t_Co=256
 colorscheme wombat256mod
