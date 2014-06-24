@@ -66,3 +66,10 @@ autocmd ColorScheme * highlight ColorColumn ctermbg=235
 " ============================================================================
 set t_Co=256
 colorscheme wombat256mod
+
+
+" ============================================================================
+" Powerline -- https://github.com/Lokaltog/powerline
+" ============================================================================
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+set laststatus=2

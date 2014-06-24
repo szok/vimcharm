@@ -13,3 +13,4 @@ Features
 Plugins
 =======
 - `pathogen.vim <https://github.com/tpope/vim-pathogen>`_
+- `powerline <https://github.com/Lokaltog/powerline>`_

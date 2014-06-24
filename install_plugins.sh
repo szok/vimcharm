@@ -10,3 +10,6 @@ mkdir -p $AUTOLOAD $BUNDLE $FTPLUGIN
 
 # Install pathogen.
 wget -qO $AUTOLOAD/pathogen.vim https://tpo.pe/pathogen.vim
+
+# Install powerline.
+git clone https://github.com/Lokaltog/powerline.git $BUNDLE/powerline
