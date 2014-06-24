@@ -8,6 +8,7 @@ Features
 - smart case search
 - highlighting of trailing spaces
 - right margin line
+- easier moving of code blocks - just select several lines of code and then press '<' or '>' several times
 - `wombat256mod <http://www.vim.org/scripts/script.php?script_id=2465>`_ colorscheme
 
 Keymap

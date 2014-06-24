@@ -34,6 +34,17 @@ set noswapfile
 
 
 " ============================================================================
+" Indentation setup.
+" ============================================================================
+set tabstop=4
+set softtabstop=4
+set expandtab
+set shiftwidth=4
+set shiftround
+set autoindent
+
+
+" ============================================================================
 " Keymapping
 " ============================================================================
 let mapleader = ","
@@ -42,6 +53,10 @@ set pastetoggle=<F4>
 " Easier moving between tabs.
 map <Leader>n <esc>:tabprevious<CR>
 map <Leader>m <esc>:tabnext<CR>
+
+" Easier moving of code blocks.
+vnoremap < <gv
+vnoremap > >gv
 
 
 " ============================================================================
