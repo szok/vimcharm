@@ -27,9 +27,16 @@ autocmd BufWinLeave * call clearmatches()
 
 
 " ============================================================================
+" Set right margin line.
+" ----------------------------------------------------------------------------
+" MUST be inserted BEFORE the colorscheme command.
+" ============================================================================
+set colorcolumn=120
+autocmd ColorScheme * highlight ColorColumn ctermbg=235
+
+
+" ============================================================================
 " Color scheme
 " ============================================================================
 set t_Co=256
-set colorcolumn=120
-autocmd ColorScheme * highlight ColorColumn ctermbg=235
 colorscheme wombat256mod
