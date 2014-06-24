@@ -1,9 +1,10 @@
 Features
 ========
-- wombat256mod colorscheme
+- cursor line
+- line numbers
 - highlighting of trailing spaces
 - right margin line
-- line numbers
+- `wombat256mod <http://www.vim.org/scripts/script.php?script_id=2465>`_ colorscheme
 
 Plugins
 =======
