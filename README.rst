@@ -1,5 +1,6 @@
 Features
 ========
+- use of the mouse
 - cursor line
 - line numbers
 - highlight search

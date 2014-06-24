@@ -11,6 +11,7 @@ syntax on
 " Settings
 " ============================================================================
 set bs=indent,eol,start
+set mouse=a
 set cursorline
 set number
 
