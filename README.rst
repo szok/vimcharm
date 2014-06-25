@@ -19,7 +19,11 @@ Keymap
 - <F2> -- Quick write session.
 - <F3> -- Quick load session.
 - <F4> -- Toggle paste mode.
-- <Ctrl+P> -- Run CtrlP.
+- <Ctrl+p> -- Run CtrlP.
+- <Ctrl+j> -- Move cursor to window below current one.
+- <Ctrl+k> -- Move cursor to window above current one.
+- <Ctrl+l> -- Move cursor to window right of current one.
+- <Ctrl+h> -- Move cursor to window left of current one.
 - ,n -- Previous tab.
 - ,m -- Next tab.
 

@@ -58,6 +58,12 @@ map <Leader>m <esc>:tabnext<CR>
 vnoremap < <gv
 vnoremap > >gv
 
+" Easier moving around the windows.
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
+
 " Quick write (F2) and load (F3) session.
 map <F2> :mksession! ~/.vim_session<CR>
 map <F3> :source ~/.vim_session<CR>
