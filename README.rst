@@ -21,6 +21,8 @@ Keymap
 - <F4> -- Toggle paste mode.
 - <Ctrl+p> -- Run CtrlP.
 - ,a -- Run Ack.
+- ,cc -- Comment selected code.
+- ,cu -- Uncomment selected code.
 
 Windows
 -------
@@ -41,3 +43,4 @@ Plugins
 - `powerline <https://github.com/Lokaltog/powerline>`_
 - `CtrlP <https://github.com/kien/ctrlp.vim>`_
 - `Ack <https://github.com/mileszs/ack.vim>`_
+- `NERD Commenter <https://github.com/scrooloose/nerdcommenter>`_
