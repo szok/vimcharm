@@ -13,6 +13,7 @@ syntax on
 set bs=indent,eol,start
 set mouse=a
 set cursorline
+set nowrap
 set number
 
 
@@ -114,3 +115,9 @@ set wildignore+=*build/*
 set wildignore+=*dist/*
 set wildignore+=*.egg-info/*
 set wildignore+=*/coverage/*
+
+
+" ============================================================================
+" Ack -- https://github.com/mileszs/ack.vim
+" ============================================================================
+nmap <leader>a <Esc>:Ack!

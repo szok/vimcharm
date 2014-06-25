@@ -16,3 +16,7 @@ git clone https://github.com/Lokaltog/powerline.git $BUNDLE/powerline
 
 # Install ctrlp.vim.
 git clone https://github.com/kien/ctrlp.vim.git $BUNDLE/ctrlp.vim
+
+# Install ack.
+sudo apt-get install -y ack-grep
+git clone https://github.com/mileszs/ack.vim.git $BUNDLE/ack.vim

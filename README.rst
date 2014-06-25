@@ -20,10 +20,17 @@ Keymap
 - <F3> -- Quick load session.
 - <F4> -- Toggle paste mode.
 - <Ctrl+p> -- Run CtrlP.
+- ,a -- Run Ack.
+
+Windows
+-------
 - <Ctrl+j> -- Move cursor to window below current one.
 - <Ctrl+k> -- Move cursor to window above current one.
 - <Ctrl+l> -- Move cursor to window right of current one.
 - <Ctrl+h> -- Move cursor to window left of current one.
+
+Tabs
+----
 - ,n -- Previous tab.
 - ,m -- Next tab.
 
@@ -33,3 +40,4 @@ Plugins
 - `pathogen.vim <https://github.com/tpope/vim-pathogen>`_
 - `powerline <https://github.com/Lokaltog/powerline>`_
 - `CtrlP <https://github.com/kien/ctrlp.vim>`_
+- `Ack <https://github.com/mileszs/ack.vim>`_
