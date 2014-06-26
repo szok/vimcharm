@@ -1,3 +1,8 @@
+Installation
+============
+wget -qO- https://raw.githubusercontent.com/korzeniewskipl/vimcharm/master/install.sh | sh
+
+
 Features
 ========
 - use of the mouse
