@@ -1,10 +1,24 @@
 #!/bin/sh
 
+VIMRC=~/.vimrc
 VIMDIR=~/.vim
 AUTOLOAD="$VIMDIR/autoload"
 BUNDLE="$VIMDIR/bundle"
 COLORS="$VIMDIR/colors"
 FTPLUGIN="$VIMDIR/ftplugin"
+
+if [ -e $VIMDIR ]
+then
+    cp -pr $VIMDIR $VIMDIR".bak_$(date +'%s')"
+fi
+
+if [ -e $VIMRC ]
+then
+    cp -pr $VIMRC $VIMRC".bak_$(date +'%s')"
+fi
+
+rm -rf $VIMDIR
+rm -rf $VIMRC
 
 # Prepare directories for plugins.
 mkdir -p $AUTOLOAD $BUNDLE $COLORS $FTPLUGIN
