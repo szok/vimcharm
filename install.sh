@@ -44,3 +44,6 @@ git clone https://github.com/mileszs/ack.vim.git $BUNDLE/ack.vim
 
 # Install nerdcommenter.
 git clone https://github.com/scrooloose/nerdcommenter.git $BUNDLE/nerdcommenter
+
+# Install nerdtree.
+git clone https://github.com/scrooloose/nerdtree.git $BUNDLE/nerdtree

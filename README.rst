@@ -28,6 +28,7 @@ Keymap
 - ,a -- Run Ack.
 - ,cc -- Comment selected code.
 - ,cu -- Uncomment selected code.
+- ,t -- Run NERD Tree.
 
 Windows
 -------
@@ -49,3 +50,4 @@ Plugins
 - `CtrlP <https://github.com/kien/ctrlp.vim>`_
 - `Ack <https://github.com/mileszs/ack.vim>`_
 - `NERD Commenter <https://github.com/scrooloose/nerdcommenter>`_
+- `NERD Tree <https://github.com/scrooloose/nerdtree>`_

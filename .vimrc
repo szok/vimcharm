@@ -121,3 +121,12 @@ set wildignore+=*/coverage/*
 " Ack -- https://github.com/mileszs/ack.vim
 " ============================================================================
 nmap <leader>a <Esc>:Ack!
+
+
+" ============================================================================
+" NERDTree -- https://github.com/scrooloose/nerdtree.git
+" ============================================================================
+nmap <leader>t :NERDTree<CR>
+
+" Display hidden files.
+let NERDTreeShowHidden=1
