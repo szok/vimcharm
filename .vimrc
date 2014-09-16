@@ -88,7 +88,7 @@ autocmd BufWinLeave * call clearmatches()
 " ----------------------------------------------------------------------------
 " MUST be inserted BEFORE the colorscheme command.
 " ============================================================================
-set colorcolumn=120
+set colorcolumn=100
 autocmd ColorScheme * highlight ColorColumn ctermbg=235
 
 
