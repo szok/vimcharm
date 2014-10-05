@@ -47,3 +47,6 @@ git clone https://github.com/scrooloose/nerdcommenter.git $BUNDLE/nerdcommenter
 
 # Install nerdtree.
 git clone https://github.com/scrooloose/nerdtree.git $BUNDLE/nerdtree
+
+# Install vim-ansible-yaml.
+git clone https://github.com/chase/vim-ansible-yaml.git $BUNDLE/vim-ansible-yaml
