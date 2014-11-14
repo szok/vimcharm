@@ -50,3 +50,6 @@ git clone https://github.com/scrooloose/nerdtree.git $BUNDLE/nerdtree
 
 # Install vim-ansible-yaml.
 git clone https://github.com/chase/vim-ansible-yaml.git $BUNDLE/vim-ansible-yaml
+
+# Install python-folding
+wget -qO $FTPLUGIN/python_folding.vim http://www.vim.org/scripts/download_script.php?src_id=5492

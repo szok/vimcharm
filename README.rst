@@ -29,6 +29,8 @@ Keymap
 * ,cc -- Comment selected code.
 * ,cu -- Uncomment selected code.
 * ,t -- Run NERD Tree.
+* f -- Fold current class/function.
+* F -- Fold all classes/functions.
 
 Windows
 -------
@@ -54,6 +56,7 @@ Plugins
 * `Ack <https://github.com/mileszs/ack.vim>`_
 * `NERD Commenter <https://github.com/scrooloose/nerdcommenter>`_
 * `NERD Tree <https://github.com/scrooloose/nerdtree>`_
+* `Python Folding <http://www.vim.org/scripts/script.php?script_id=1494>`_
 
 
 Links
