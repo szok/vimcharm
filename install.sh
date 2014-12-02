@@ -24,13 +24,13 @@ rm -rf $VIMRC
 mkdir -p $AUTOLOAD $BUNDLE $COLORS $FTPLUGIN
 
 # Install .vimrc.
-wget -qO ~/.vimrc https://raw.githubusercontent.com/korzeniewskipl/vimcharm/master/.vimrc
+wget -qO ~/.vimrc https://raw.githubusercontent.com/szok/vimcharm/master/.vimrc
 
 # Install pathogen.
 wget -qO $AUTOLOAD/pathogen.vim https://tpo.pe/pathogen.vim
 
 # Install color scheme.
-wget -qO $COLORS/wombat256mod.vim https://raw.githubusercontent.com/korzeniewskipl/vimcharm/master/.vim/colors/wombat256mod.vim
+wget -qO $COLORS/wombat256mod.vim https://raw.githubusercontent.com/szok/vimcharm/master/.vim/colors/wombat256mod.vim
 
 # Install powerline.
 git clone https://github.com/Lokaltog/powerline.git $BUNDLE/powerline
@@ -50,6 +50,3 @@ git clone https://github.com/scrooloose/nerdtree.git $BUNDLE/nerdtree
 
 # Install vim-ansible-yaml.
 git clone https://github.com/chase/vim-ansible-yaml.git $BUNDLE/vim-ansible-yaml
-
-# Install python-folding
-wget -qO $FTPLUGIN/python_folding.vim http://www.vim.org/scripts/download_script.php?src_id=5492

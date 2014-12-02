@@ -29,8 +29,6 @@ Keymap
 * ,cc -- Comment selected code.
 * ,cu -- Uncomment selected code.
 * ,t -- Run NERD Tree.
-* f -- Fold current class/function.
-* F -- Fold all classes/functions.
 
 Windows
 -------
@@ -56,13 +54,11 @@ Plugins
 * `Ack <https://github.com/mileszs/ack.vim>`_
 * `NERD Commenter <https://github.com/scrooloose/nerdcommenter>`_
 * `NERD Tree <https://github.com/scrooloose/nerdtree>`_
-* `Python Folding <http://www.vim.org/scripts/script.php?script_id=1494>`_
 
 
 Links
 =====
 * `9 Enhancements to Shell and Vim Productivity <http://danielmiessler.com/blog/enhancements-to-shell-and-vim-productivity/>`_
-* `What is the recommended way to use Vim folding for Python code <http://stackoverflow.com/questions/357785/what-is-the-recommended-way-to-use-vim-folding-for-python-code>`_
 
 * `hynek/vim-python-pep8-indent <https://github.com/hynek/vim-python-pep8-indent>`_
 * `kien/tabman.vim <https://github.com/kien/tabman.vim>`_
