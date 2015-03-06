@@ -4,7 +4,7 @@ Fork from: https://github.com/korzeniewskipl/vimcharm
 
 Installation
 ============
-wget -qO- https://raw.githubusercontent.com/korzeniewskipl/vimcharm/master/install.sh | sh
+wget -qO- https://raw.githubusercontent.com/szok/vimcharm/master/install.sh | sh
 
 
 Features
